@@ -1,0 +1,85 @@
+/* Arquivo de estilos principal */
+html,
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+:root {
+    font-family: "Alice", serif;
+    color: #573A37;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-image: url("assets/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* cor de fallback caso a imagem não carregue */
+    background-color: #f5f5f5;
+
+}
+
+#page {
+    box-sizing: border-box;
+    width: 800px;
+    padding: 24px;
+    margin: 48px auto;
+    background-color: #F0E8C2;
+    border-radius: 24px;
+}
+
+img {
+    border-radius: 16px;
+    max-width: 100%;
+    height: auto;
+}
+
+section+section {
+    margin-top: 24px;
+}
+
+
+
+main {
+    padding: 24px;
+}
+
+#abbout p+p {
+    margin-top: 12px;
+
+}
+
+
+
+
+h1 {
+    line-height: 140%;
+    font-size: 40px;
+    margin-bottom: 4px;
+    line-height: 150%;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 4px;
+    line-height: 150%;
+}
+
+h1,
+h2 {
+    color: #291b1a
+}
+
+ul {
+    padding: 24px;
+
+
+
+}
